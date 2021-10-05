@@ -1,0 +1,60 @@
+.containerHor {
+    width: 80%;
+    margin: 10px auto;
+    /* outline: 1px dashed red; */
+    position: relative;
+  }
+  
+  .containerHor > h2 {
+    text-align: center;
+  }
+  
+  .containerCardHor {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px auto;
+  }
+  
+  .cardHor {
+    width: 300px;
+    height: 350px;
+    box-shadow: 4px 8px 8px silver;
+    position: relative;
+    margin: 15px 20px;
+    border-radius: 10px;
+  }
+  
+  .cardHor > img {
+    width: 280px;
+    height: 200px;
+    margin: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cardButtonHor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cardButtonHor * button {
+    cursor: pointer;
+  }
+  
+  .horConfirm {
+    position: absolute;
+    margin-top: 5px;
+    right: 10px;
+  }
+  
+  .horConfirm > button {
+    height: 40px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

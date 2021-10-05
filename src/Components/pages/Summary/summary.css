@@ -1,0 +1,8 @@
+.containerSummary{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.containerSummary > h2 {
+    text-align: center;
+  }

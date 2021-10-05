@@ -1,0 +1,60 @@
+.header{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ee4d2d;
+}
+
+.logo > h1{
+    color: white;
+}
+
+.search{
+    margin-left: 50px;
+    width: 50%;
+}
+
+.search input{
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.search button{
+    margin-left: 2px;
+    height: 35px;
+    width: 50px;
+}
+
+.link{
+    width: 20%;
+}
+
+.link ul{
+    width: 80%;
+}
+
+.link li{
+    display: inline-block;
+    padding: 15px;
+    margin-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.link a{
+    text-decoration: none;
+     font-size: 1.2rem;
+     color: white;
+}
+
+.link i {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}

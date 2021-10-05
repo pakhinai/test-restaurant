@@ -1,0 +1,59 @@
+.containerCovid {
+  width: 80%;
+  margin: 10px auto;
+  /* outline: 1px dashed red; */
+  position: relative;
+}
+
+.containerCovid > h2 {
+  text-align: center;
+}
+
+.containerCardCovid {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.cardCovid {
+  width: 300px;
+  height: 350px;
+  box-shadow: 4px 8px 8px silver;
+  position: relative;
+  margin: 15px 20px;
+  border-radius: 10px;
+}
+
+.cardCovid > img {
+  width: 280px;
+  height: 200px;
+  margin: 5px 10px;
+  border-radius: 5px;
+}
+
+.cardButtonCovid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardButtonCovid * button {
+  cursor: pointer;
+}
+
+.covidConfirm {
+  position: absolute;
+  margin-top: 5px;
+  right: 10px;
+}
+
+.covidConfirm > button {
+  height: 40px;
+  background-color: deepskyblue;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}

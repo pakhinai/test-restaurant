@@ -1,0 +1,59 @@
+.containerTae {
+  width: 80%;
+  margin: 10px auto;
+  /* outline: 1px dashed red; */
+  position: relative;
+}
+
+.containerTae > h2 {
+  text-align: center;
+}
+
+.containerCardTae {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.cardTae {
+    width: 300px;
+    height: 350px;
+    box-shadow: 4px 8px 8px silver;
+    position: relative;
+    margin: 15px 20px;
+    border-radius: 10px;
+  }
+  
+  .cardTae > img {
+    width: 280px;
+    height: 200px;
+    margin: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cardButtonTae {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cardButtonTae * button {
+    cursor: pointer;
+  }
+
+  .taeConfirm {
+    position: absolute;
+    margin-top: 5px;
+    right: 10px;
+  }
+  
+  .taeConfirm > button {
+    height: 40px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
